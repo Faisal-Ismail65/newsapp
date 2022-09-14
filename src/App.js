@@ -4,13 +4,12 @@ import Navbar from './components/Navbar';
 import News from './components/News';
 import About from './components/About'; 
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 export class App extends Component {
 
   render() { 
     return (
       <>
-      
       <Router>
         <Navbar/>
         <Routes>
@@ -28,5 +27,4 @@ export class App extends Component {
     )
   }
 }
-
 export default App
